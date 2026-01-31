@@ -1,21 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hero Gamers</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
-</head>
-<body>
-  <header><nav></nav></header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Gamers</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navigation area -->
+      <nav
+        class="flex justify-between items-center py-9 px-2 w-[95%] xl:max-w-[1300px] mx-auto"
+      >
+        <div class="flex gap-2.5 items-center">
+          <img src="./images/Frame.png" alt="" class="w-[87px] h-10" />
+          <h1 class="text-[45px] text-[#0B0223] font-bold">
+            <span class="text-[#FF42A5]">G</span>amer
+          </h1>
+        </div>
 
-  <main></main>
+        <!-- navbar right area -->
 
-  <footer></footer>
+      
+          <ul class=" hidden lg:flex gap-8 items-center text-[18px] text-[#3C354F] font-medium">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Developers</a></li>
+            <!-- navbar icon area -->
+            <li class="flex gap-3 py-4 px-6 rounded-lg bg-[rgba(11,2,35,0.1)]">
+              <a href="#">Follow Us On</a>
+              <div class="text-[20px] gap-3 flex items-center">
+                <a href=""><i class="fa-brands fa-youtube text-red-500"></i></a
+                ><a href=""><i class="fa-brands fa-tiktok bg-linear-[90deg,#FF42A5,#8758F1] bg-clip-text text-transparent"></i></a>
+              </div>
+            </li>
+          </ul>
+     
+          <!-- hamberger menu -->
+<div class="text-[28px] block lg:hidden"><i class="fa-solid fa-bars bg-linear-[90deg,#FF42A5,#8758F1] bg-clip-text text-transparent"></i></div>
 
-</body>
+      </nav>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
+  </body>
 </html>
