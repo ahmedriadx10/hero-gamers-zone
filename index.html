@@ -37,10 +37,10 @@
         <ul
           class="hidden lg:flex gap-8 items-center text-[18px] text-[#3C354F] font-medium"
         >
-          <li><a href="">About Us</a></li>
-          <li><a href="">Developers</a></li>
+          <li><a href="" class="hover:text-[#FF42A5] hover:transition-colors">About Us</a></li>
+          <li><a href="" class="hover:text-[#FF42A5] hover:transition-colors">Developers</a></li>
           <!-- navbar icon area -->
-          <li class="flex gap-3 py-4 px-6 rounded-lg bg-[rgba(11,2,35,0.1)]">
+    <li class="relative">     <div class="flex gap-3 py-4 px-6 rounded-lg bg-[rgba(11,2,35,0.1)] relative">
             <a href="#">Follow Us On</a>
             <div class="text-[20px] gap-3 flex items-center">
               <a href=""><i class="fa-brands fa-youtube text-red-500"></i></a
@@ -50,7 +50,10 @@
                 ></i
               ></a>
             </div>
-          </li>
+          </div>
+        <div class="absolute w-full h-full bg-black left-0 top-0"></div>
+        
+        </li>
         </ul>
 
         <!-- hamberger menu -->
@@ -206,7 +209,7 @@
 
           <div class="">
             <!-- game -->
-            <div class="mb-6 hover:-translate-y-1 transition-transform hover:shadow-[0_0_30px_#ddd]">
+            <div class="mb-6 hover:-translate-y-1 transition-transform ">
               <img src="./images/Rectangle 4.png" alt="" class="w-full" />
             </div>
             <p class="text=[20px] leading-6 text-[#534c64] font-medium">
@@ -215,7 +218,7 @@
           </div>
           <div class="">
             <!-- game -->
-            <div class="mb-6 hover:-translate-y-1 transition-transform hover:shadow-[0_0_30px_#ddd]">
+            <div class="mb-6 hover:-translate-y-1 transition-transform ">
               <img src="./images/Rectangle 5.png" alt="" class="w-full" />
             </div>
             <p class="text=[20px] leading-6 text-[#534c64] font-medium">
@@ -225,7 +228,7 @@
 
           <div class="">
             <!-- game card playable-->
-            <div class="mb-6 relative hover:-translate-y-1 transition-transform hover:shadow-[0_0_30px_#ddd]">
+            <div class="mb-6 relative hover:-translate-y-1 transition-transform ">
               <img src="./images/Rectangle 7.png" alt="" class="w-full" />
               <div
                 class="absolute top-[50%] left-[50%] bg-[rgba(17,17,17,0.74)] w-[98%] h-[98%] translate-[-50%] rounded-xl flex justify-center items-center"
@@ -247,7 +250,7 @@
 
           <div class="">
             <!-- game -->
-            <div class="mb-6 hover:-translate-y-1 transition-transform hover:shadow-[0_0_30px_#ddd]">
+            <div class="mb-6 hover:-translate-y-1 transition-transform ">
               <img src="./images/Rectangle 6.png" alt="" class="w-full" />
             </div>
             <p class="text=[20px] leading-6 text-[#534c64] font-medium">
@@ -389,7 +392,7 @@
 
     <!-- careers button area -->
  
-    <div><button class="text-[#FF42A5] uppercase bg-white font-semibold text-[20px] py-5 px-10 rounded-full cursor-pointer">See all positions</button></div>
+    <div><button class="text-[#FF42A5] uppercase bg-white font-semibold text-[20px] py-5 px-10 rounded-full cursor-pointer hover:-translate-y-0.5 transition-transform ">See all positions</button></div>
 
   </div>
 
